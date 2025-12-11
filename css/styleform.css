@@ -12,6 +12,10 @@ ul {
   background-size: cover; /* Sørger for, at billedet dækker hele elementet */
 }
 
+nav::-webkit-scrollbar {
+  display: none; /* Skjuler scrollbaren */
+}
+
 nav {
   /* Gør navigationen sticky og placerer den øverst */
   position: sticky;

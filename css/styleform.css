@@ -12,6 +12,10 @@ ul {
   background-size: cover; /* Sørger for, at billedet dækker hele elementet */
 }
 
+nav::-webkit-scrollbar {
+  display: none; /* Skjuler scrollbaren */
+}
+
 nav {
   /* Gør navigationen sticky og placerer den øverst */
   position: sticky;
@@ -23,7 +27,7 @@ nav {
   overflow-x: scroll; /* Tillader vandret scrolling, hvis indholdet er for bredt */
   white-space: nowrap; /* Sikrer, at links ikke bryder ned på nye linjer */
   padding: 10px 0; /* Lidt polstring */
-  background-color: #f8f8f8; /* Giv baggrunden en farve, så indholdet under ikke ses */
+  background-color: #c9c9c9; /* Giv baggrunden en farve, så indholdet under ikke ses */
 }
 
 nav a {
@@ -32,4 +36,104 @@ nav a {
   padding: 0 15px;
   text-decoration: none;
   /* ... andet link-styling ... */
+}
+
+body {
+  overflow-x: hidden; /* Forhindrer vandret scrolling på hele siden */
+  overflow-y: scroll; /* Tillader lodret scrolling */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 15px;
+}
+
+section:nth-child(2) {
+  background: #3498db;
+  color: white;
+}
+
+section:nth-child(3) {
+  background: #ecf0f1;
+  color: #2c3e50;
+}
+
+section:nth-child(4) {
+  background: #e74c3c;
+  color: white;
+}
+
+section:nth-child(5) {
+  background: #42375c;
+  color: white;
+}
+
+section:nth-child(6) {
+  background: #ac5588;
+  color: white;
+}
+
+section:nth-child(7) {
+  background: #031d0d;
+  color: white;
+}
+
+section:nth-child(8) {
+  background: #2eb7cc;
+  color: white;
+}
+
+section:nth-child(9) {
+  background: #cc2e2e;
+  color: white;
+}
+
+section:nth-child(10) {
+  background: #c4cc2e;
+  color: white;
+}
+
+section:nth-child(11) {
+  background: #462ecc;
+  color: white;
+}
+
+section:nth-child(12) {
+  background: #cc2ebf;
+  color: white;
+}
+
+section:nth-child(13) {
+  background: #ccbc2e;
+  color: white;
+}
+
+section:nth-child(14) {
+  background: #cc2ebc;
+  color: white;
+}
+
+section:nth-child(15) {
+  background: #36cc2e;
+  color: white;
+}
+
+section:nth-child(16) {
+  background: #cc2e2e;
+  color: white;
+}
+section:nth-child(17) {
+  background: #cc682e;
+  color: white;
 }

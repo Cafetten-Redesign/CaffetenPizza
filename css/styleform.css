@@ -1,0 +1,35 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#hero {
+  height: 50vh; /* Giver sektionen en højde (50% af viewport-højden) */
+  background-image: url("../img/Pizza-Hero.jpg"); /* Erstat med din sti */
+  background-attachment: fixed; /* DENNE er NØGLEN til Parallax */
+  background-position: center;
+  background-size: cover; /* Sørger for, at billedet dækker hele elementet */
+}
+
+nav {
+  /* Gør navigationen sticky og placerer den øverst */
+  position: sticky;
+  top: 0; /* Klæber fast 0px fra toppen */
+  z-index: 10; /* Sikrer, at navigationen ligger over andet indhold */
+
+  /* Opsætning for horizontal scrolling (Carousel) */
+  display: flex; /* Placerer linksene på én række */
+  overflow-x: scroll; /* Tillader vandret scrolling, hvis indholdet er for bredt */
+  white-space: nowrap; /* Sikrer, at links ikke bryder ned på nye linjer */
+  padding: 10px 0; /* Lidt polstring */
+  background-color: #f8f8f8; /* Giv baggrunden en farve, så indholdet under ikke ses */
+}
+
+nav a {
+  /* Styling af de enkelte links */
+  flex-shrink: 0; /* Vigtigt: sikrer, at linkene ikke bliver mindre, når der er mange */
+  padding: 0 15px;
+  text-decoration: none;
+  /* ... andet link-styling ... */
+}

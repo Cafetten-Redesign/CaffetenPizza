@@ -14,20 +14,7 @@
   height: 230px; /* behold den højde du synes passer */
   object-fit: cover;
   display: block;
-  opacity: 0.7;
-}
-
-.site-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* logo ↔ burger */
-  padding: 16px;
-}
-
-.site-header img {
-  height: 45px; /* eller 32px – justér */
-  width: auto;
-  display: block;
+  opacity: 1;
 }
 
 .front-intro {
@@ -38,23 +25,28 @@
 }
 
 .front-intro h1 {
+  margin-top: 20px;
   font-size: 22px;
   font-weight: 700;
+}
+
+.front-p {
+  margin-top: 10px;
 }
 
 .front-actions {
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-top: 6px;
+  margin-top: 50px;
 }
 
 .front-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 12px 18px;
-  border-radius: 9999px;
+  padding: 12px 12px;
+  border-radius: 500px;
   background: #cacaca;
   color: #000;
   text-decoration: none;

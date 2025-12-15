@@ -9,9 +9,10 @@
   background-color: #4b6b41;
 }
 
-.front-image img {
+.front-image {
   width: 100%;
   height: 230px; /* behold den højde du synes passer */
+  background-image: url("../img/pizzadej(mobile.jpg");
   object-fit: cover;
   display: block;
   opacity: 1;
@@ -67,4 +68,50 @@
   width: 120px;
   max-width: 100%;
   height: auto;
+}
+
+@media (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+
+  .site-header {
+    padding: 20px 40px;
+  }
+
+  .site-header img {
+    height: 55px;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+
+  .front-image {
+    height: 520px;
+    background-image: url("../img/pizzadej(desktop).jpeg");
+    background-size: cover;
+    background-position: center 75%;
+  }
+
+  .site-header .mobile-menu ul {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .site-header .mobile-menu a {
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .front-intro p {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .front-about-p {
+    max-width: 900px;
+    margin: 0 auto;
+  }
 }

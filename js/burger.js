@@ -1,3 +1,4 @@
+console.log("burger loaded");
 const burgerBtn = document.getElementById("burger-btn");
 const mobileMenu = document.getElementById("mobile-menu");
 

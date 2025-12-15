@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.forside {
+  height: 100svh;
+  background-color: #4b6b41;
+}
+
+.front-image img {
+  width: 100%;
+  height: 230px; /* behold den højde du synes passer */
+  object-fit: cover;
+  display: block;
+  opacity: 0.7;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* logo ↔ burger */
+  padding: 16px;
+}
+
+.site-header img {
+  height: 45px; /* eller 32px – justér */
+  width: auto;
+  display: block;
+}
+
+.front-intro {
+  text-align: center;
+  padding: 18px 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.front-intro h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.front-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 6px;
+}
+
+.front-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border-radius: 9999px;
+  background: #cacaca;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  min-width: 130px;
+}
+
+.front-about {
+  padding: 40px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.front-about img {
+  width: 120px;
+  max-width: 100%;
+  height: auto;
+}

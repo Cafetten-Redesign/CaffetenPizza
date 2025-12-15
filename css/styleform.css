@@ -137,3 +137,136 @@ section:nth-child(17) {
   background: #cc682e;
   color: white;
 }
+
+/* 1. Hovedcontainer for produktkortet (Layout) */
+.product-card {
+  display: flex; /* NØGLE: Placerer indholdet vandret */
+  align-items: center; /* Centrerer elementerne vertikalt (i midten) */
+  gap: 15px; /* Afstand mellem de store kolonner (billede, detaljer, pris) */
+
+  /* Visuel styling */
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 15px; /* Afstand til det næste kort */
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* En let skygge for at løfte kortet */
+}
+
+/* 3. Detaljer (Navn og beskrivelse) */
+.card-details {
+  flex-grow: 1; /* NØGLE: Giver detaljerne al den ledige plads i midten */
+}
+
+.product-name {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.product-description {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* 4. Pris og handling (Højre side) */
+.card-price-action {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.add-to-cart-btn {
+  background-color: #c00;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* SECTION (må ikke være flex) */
+.menu-section {
+  padding: 24px 0;
+}
+
+/* INDRE CONTAINER: centrer + space i siderne */
+.section-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* TITEL (kun titel får stor font) */
+.section-title {
+  margin: 15px;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+/* BAGGRUND KUN PÅ PIZZA-SEKTIONEN */
+.menu-section--pizza {
+  background: #3498db;
+  color: white; /* kun “udenfor” cards */
+}
+
+/* PRODUCT CARD */
+.product-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+
+  background: #fff;
+  color: #222; /* VIGTIG: så tekst ikke arver hvid */
+  border-radius: 16px;
+  padding: 14px 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* TEKST DEL */
+.card-details {
+  flex: 1;
+}
+
+.product-name {
+  margin: 0 0 6px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.product-description {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* PRIS + KNAP */
+.card-price-action {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.product-price {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.add-to-cart-btn {
+  background: #c00;
+  color: #fff;
+  border: 0;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size: 1.6rem;
+}

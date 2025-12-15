@@ -31,7 +31,39 @@
         <a href="#section17">Diverse</a>
       </nav>
 
-      <section id="section1">Pizza</section>
+      <section id="section1" class="menu-section menu-section--pizza">
+        <div class="section-inner">
+          <h2 class="section-title">Pizza</h2>
+
+          <article class="product-card">
+            <div class="card-details">
+              <h3 class="product-name">Pizza Nr. 1</h3>
+              <p class="product-description">
+                Tomat, ost, skinke og champignon.
+              </p>
+            </div>
+
+            <div class="card-price-action">
+              <span class="product-price">DKK 100</span>
+              <button class="add-to-cart-btn">+</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="card-details">
+              <h3 class="product-name">Pizza Nr. 2</h3>
+              <p class="product-description">
+                Tomat, ost, skinke og champignon.
+              </p>
+            </div>
+
+            <div class="card-price-action">
+              <span class="product-price">DKK 100</span>
+              <button class="add-to-cart-btn">+</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
       <section id="section2">Salat-pizzaer</section>
       <section id="section3">Indbagte pizzaer</section>
       <section id="section4">Mexikanske</section>
@@ -50,8 +82,13 @@
       <section id="section17">Diverse</section>
     </div>
 
-    <div id="orderbutton"></div>
-
-    <div class="pizza"></div>
+    <div id="orderbutton">
+      <button class="order-total-btn">
+        🛒 Ordre <span class="order-price">DKK 0</span>
+      </button>
+    </div>
   </body>
+  <script src="js/login.js"></script>
+  <script src="js/burger.js"></script>
+  <script src="js/form.js"></script>
 </html>

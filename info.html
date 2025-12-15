@@ -5,16 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Om os</title>
-    <link rel="stylesheet" href="genreal.css" />
-    <link rel="stylesheet" href="info.css" />
+    <link rel="stylesheet" href="css/burger.css" />
+    <link rel="stylesheet" href="css/genreal.css" />
+    <link rel="stylesheet" href="css/info.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul class="menu">
-          <li><a href="form.html">Bestilling</a></li>
-          <li><a href="menu.html">Anmeldelse</a></li>
-          <li><a href="info.html">Om os</a></li>
+    <header class="site-header">
+      <a href="index.html"
+        ><img src="img/cafetten-f-logo.svg" alt="cafetten"
+      /></a>
+
+      <!-- Burger-knap -->
+      <button class="burger" id="burger-btn" aria-label="Åbn menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="mobile-menu" id="mobile-menu">
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="form.html">Bestillingen</a></li>
+          <li><a href="menu.html">Anmeldelser</a></li>
+          <li><a href="info.html">Om cafetten</a></li>
         </ul>
       </nav>
     </header>
@@ -168,7 +181,7 @@
       </section>
     </footer>
 
-    <script src="js.login.js"></script>
-    <script src="js.burger.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/login.js"></script>
   </body>
 </html>

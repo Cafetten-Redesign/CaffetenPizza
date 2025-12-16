@@ -5,7 +5,7 @@
 }
 
 .forside {
-  height: 100svh;
+  min-height: 100svh;
   background-color: #4b6b41;
 }
 
@@ -33,6 +33,7 @@
 
 .front-p {
   margin-top: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
 .front-actions {
@@ -87,6 +88,26 @@
     display: none;
   }
 
+  .mobile-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .mobile-menu a {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+  }
+
   .front-image {
     height: 520px;
     background-image: url("../img/pizzadej(desktop).jpeg");
@@ -97,10 +118,26 @@
   .front-intro p {
     max-width: 700px;
     margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .desktop-cta {
+    margin-top: 16px;
+  }
+
+  .front-actions {
+    margin-top: 8px;
   }
 
   .front-about-p {
     max-width: 900px;
     margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .front-intro h1 {
+    margin-top: 8px;
+    font-size: 4rem;
+    letter-spacing: 0.05em;
   }
 }

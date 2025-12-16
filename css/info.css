@@ -27,12 +27,13 @@ header {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 64px;
   margin-bottom: 0.6rem;
 }
 
 h2 {
   font-size: 32px;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -47,4 +48,79 @@ h4 {
 
 section {
   margin-bottom: 2rem;
+}
+
+.omos-indhold {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.omos-indhold img {
+  height: 400px;
+  width: 412px;
+}
+
+.omos-indhold p {
+  font-size: 19px;
+}
+
+.historienbag-indhold {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.historienbag-indhold p {
+  font-size: 19px;
+}
+
+.historienbag-billeder {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.historienbag-billeder img {
+  height: 400px;
+  width: 412px;
+}
+
+.mandenbag-indhold {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.mandenbag-indhold img {
+  width: 299px;
+  height: 281px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0.5px solid black;
+  margin: 2rem auto 1rem;
+}
+
+.mandenbag-indhold p {
+  font-size: 19px;
+}
+
+.passionenforpizza-indhold {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.passionenforpizza-indhold img {
+  width: 299px;
+  height: 281px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0.5px solid black;
+  margin: 2rem auto 1rem;
+}
+
+.passionenforpizza-indhold p {
+  font-size: 19px;
 }

@@ -10,6 +10,7 @@
   justify-content: space-between; /* logo ↔ burger */
   padding: 10px 12px;
   margin-top: 35px;
+  box-shadow: 5px;
 }
 
 .site-header img {
@@ -25,4 +26,17 @@
 .burger span {
   height: 4px;
   border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .site-header .mobile-menu ul {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .site-header .mobile-menu a {
+    font-size: 18px;
+    text-decoration: none;
+  }
 }

@@ -14,7 +14,35 @@ img {
 }
 
 main {
-  padding: 1.5rem;
+  padding: 0.6rem;
+}
+
+body {
+  line-height: 1.7;
+  color: black;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 0.6rem;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 32px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 32px;
+  text-align: center;
 }
 
 section {

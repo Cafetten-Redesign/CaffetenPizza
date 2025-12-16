@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* --- MOBIL --- */
+/* --- START MOBIL KEY --- */
 
 img {
   width: 100%;
@@ -50,6 +50,10 @@ section {
   margin-bottom: 2rem;
 }
 
+/* --- SLUT MOBIL KEY --- */
+
+/* --- START OM OS --- */
+
 .omos-indhold {
   display: flex;
   flex-direction: column;
@@ -59,11 +63,16 @@ section {
 .omos-indhold img {
   height: 400px;
   width: 412px;
+  border-radius: 15px;
 }
 
 .omos-indhold p {
   font-size: 19px;
 }
+
+/* --- SLUT OM OS --- */
+
+/* --- START HISTORIEN BAG --- */
 
 .historienbag-indhold {
   display: flex;
@@ -85,7 +94,12 @@ section {
 .historienbag-billeder img {
   height: 400px;
   width: 412px;
+  border-radius: 15px;
 }
+
+/* --- SLUT HISTORIEN BAG --- */
+
+/* --- START MANDEN BAG --- */
 
 .mandenbag-indhold {
   display: flex;
@@ -100,11 +114,16 @@ section {
   border-radius: 50%;
   border: 0.5px solid black;
   margin: 2rem auto 1rem;
+  border-radius: 15px;
 }
 
 .mandenbag-indhold p {
   font-size: 19px;
 }
+
+/* --- SLUT MANDEN BAG --- */
+
+/* --- START PASSIONEN FOR PIZZA --- */
 
 .passionenforpizza-indhold {
   display: flex;
@@ -119,8 +138,70 @@ section {
   border-radius: 50%;
   border: 0.5px solid black;
   margin: 2rem auto 1rem;
+  border-radius: 15px;
 }
 
 .passionenforpizza-indhold p {
   font-size: 19px;
+}
+
+/* --- SLUT PASSIONEN FOR PIZZA --- */
+
+h5 {
+  font-size: 32px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+/* --- START FOOTER --- */
+
+footer {
+  background: #4b6b41;
+  padding: 2rem 2rem;
+}
+
+.kontakt-indhold {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.kontakt-indhold h6 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.cafetten h6 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.cafetten p {
+  font-size: 22px;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.kontakt-os-her h6 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.kontakt-os-her ul {
+  font-size: 22px;
+  text-align: center;
+  list-style: none;
+  margin-top: -20px;
+}
+
+.aabningstider h6 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.aabningstider ul {
+  font-size: 22px;
+  text-align: center;
+  list-style: none;
+  margin-top: -20px;
 }

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- MOBIL --- */
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: white 4px;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}

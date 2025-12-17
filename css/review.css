@@ -1,0 +1,20 @@
+.article1{
+border: 1px solid black;
+padding: 10px;
+}
+.article2{
+border: 1px solid black;
+padding: 10px;
+}
+.article3{
+border: 1px solid black;
+padding: 10px;
+margin-bottom: 100px;
+}
+
+.review-btn{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+@media (min-width 768px)

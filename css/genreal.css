@@ -48,8 +48,6 @@ select {
   border-radius: 4px;
 }
 
-<<<<<<< HEAD
-=======
 footer {
   background: #4b6b41;
   padding: 2rem 2rem;
@@ -101,7 +99,6 @@ footer {
   margin-top: -20px;
 }
 
->>>>>>> 9269bd34a282a7a4d29f7354d84c45863b5a6a3c
 @media (min-width: 768px) {
   .site-header .mobile-menu ul {
     display: flex;

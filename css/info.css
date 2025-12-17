@@ -220,3 +220,56 @@ footer {
 }
 
 /* --- SLUT FOOTER --- */
+
+/* --- START DESKTOP --- */
+
+@media (min-width: 768px) {
+  main {
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .omos {
+    margin-top: 60px;
+  }
+
+  .omos-indhold p {
+    width: 1059px;
+    height: 108px;
+    margin: 1rem 11rem;
+  }
+
+  .omos-indhold img {
+    width: 1360px;
+    height: 600px;
+    margin-top: 10px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .historienbag-indhold p {
+    width: 1043px;
+    height: auto;
+    margin: 1rem 10.7rem;
+  }
+
+  .historienbag-billeder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .historienbag-billeder img {
+    width: 680px;
+    height: 600px;
+    margin-top: 60px;
+  }
+}

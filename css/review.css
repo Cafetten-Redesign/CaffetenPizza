@@ -12,13 +12,15 @@ padding: 10px;
 margin-bottom: 100px;
 }
 
+main {background-color: #E8DCC3;}
+
 .review-btn{
     border: 1px solid black;
     padding: 10px;
     margin-bottom: 10px;
 }
 .undertekst{
-    margin-top: 30px;
+    margin-top: 10px;
     margin-right: 500px;
     margin-left: 500px;
     margin-bottom: 30px;
@@ -29,17 +31,16 @@ margin-bottom: 100px;
 border: 1px solid black;
 padding: 25px;
 padding-bottom: 50px;
-margin-bottom: 100px;
+
 }
 .article2{
 border: 1px solid black;
 padding: 10px;
-margin-bottom: 100px;
+
 }
 .article3{
 border: 1px solid black;
 padding: 10px;
-margin-bottom: 100px;
 }
 
 .review-btn{
@@ -48,6 +49,7 @@ margin-bottom: 100px;
     margin-bottom: 10px;
     margin-right: 560px;
     margin-left: 560px;
+    margin-top: 50px;
     display:flex;
     justify-content: center;
 }
@@ -55,11 +57,12 @@ margin-bottom: 100px;
 .linje1{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 30px;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 .articles{
     display:flex;
+    background-color: white;
 }
 
 img {

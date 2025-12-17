@@ -111,10 +111,9 @@ section {
   width: 299px;
   height: 281px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 100%;
   border: 0.5px solid black;
   margin: 2rem auto 1rem;
-  border-radius: 15px;
 }
 
 .mandenbag-indhold p {
@@ -135,10 +134,9 @@ section {
   width: 299px;
   height: 281px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 100%;
   border: 0.5px solid black;
   margin: 2rem auto 1rem;
-  border-radius: 15px;
 }
 
 .passionenforpizza-indhold p {

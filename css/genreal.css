@@ -61,7 +61,8 @@ select {
 
 .mobile-menu ul {
   display: flex;
-  gap: 48px;
+  flex-direction: column;
+  gap: 20px;
   align-items: center;
 }
 
@@ -148,6 +149,10 @@ footer {
 
   .site-header .mobile-menu a {
     text-decoration: none;
+  }
+
+  .mobile-menu ul {
+    flex-direction: row;
   }
 
   /* --- START FOOTER --- */

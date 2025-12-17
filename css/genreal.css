@@ -100,6 +100,14 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .site-header {
+    padding: 20px 40px;
+  }
+
+  .site-header img {
+    height: 55px;
+  }
+
   .site-header .mobile-menu ul {
     display: flex;
     gap: 32px;

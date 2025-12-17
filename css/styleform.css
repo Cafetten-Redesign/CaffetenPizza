@@ -16,7 +16,7 @@ nav::-webkit-scrollbar {
   display: none; /* Skjuler scrollbaren */
 }
 
-nav {
+.menuitems {
   /* Gør navigationen sticky og placerer den øverst */
   position: sticky;
   top: 0; /* Klæber fast 0px fra toppen */

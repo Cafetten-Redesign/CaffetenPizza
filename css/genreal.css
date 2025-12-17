@@ -48,11 +48,6 @@ select {
   border-radius: 4px;
 }
 
-.footer-fr {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 @media (min-width: 768px) {
   .site-header .mobile-menu ul {
     display: flex;
@@ -117,5 +112,13 @@ select {
     text-align: center;
     list-style: none;
     margin-top: -20px;
+  }
+
+  .footer-fr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
   }
 }

@@ -326,3 +326,11 @@ section:nth-child(17) {
   /* Center text, optional: */
   text-align: center;
 }
+
+@media (min-width: 901px) {
+  /* Desktop styles (kan tilpasses yderligere) */
+
+  nav {
+    justify-content: center;
+  }
+}

@@ -140,4 +140,7 @@
     font-size: 4rem;
     letter-spacing: 0.05em;
   }
+  footer {
+    padding: 24px 40px;
+  }
 }

@@ -48,6 +48,11 @@ select {
   border-radius: 4px;
 }
 
+.footer-fr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 @media (min-width: 768px) {
   .site-header .mobile-menu ul {
     display: flex;
@@ -57,5 +62,60 @@ select {
 
   .site-header .mobile-menu a {
     text-decoration: none;
+  }
+
+  /* --- START FOOTER --- */
+
+  footer {
+    background: #4b6b41;
+    padding: 2rem 2rem;
+  }
+
+  .kontakt-indhold {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+
+  .kontakt-indhold h6 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cafetten h6 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .cafetten p {
+    font-size: 22px;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .kontakt-os-her h6 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .kontakt-os-her ul {
+    font-size: 22px;
+    text-align: center;
+    list-style: none;
+    margin-top: -20px;
+  }
+
+  .aabningstider h6 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .aabningstider ul {
+    font-size: 22px;
+    text-align: center;
+    list-style: none;
+    margin-top: -20px;
   }
 }

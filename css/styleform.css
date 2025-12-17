@@ -276,11 +276,53 @@ section:nth-child(17) {
   font-size: 20px;
   font-weight: bold;
   z-index: 100;
+
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+}
+
+#orderbutton.order-visible {
+  /* ensure interactive once visible */
+  pointer-events: auto;
+  /* keep final visible state so layout doesn't jump */
+  opacity: 1;
+  transform: translateY(0);
+  /* animate in */
+  animation: order-in 2s ease-out;
+}
+
+/* keyframes for showing the order button */
+@keyframes order-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .order-total-btn {
   margin: 20px 0;
   width: 300px;
   height: 100px;
-  background-color: yellow;
+  background-color: rgb(250, 28, 28);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#order-list {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  padding: 32px 24px;
+  color: #222;
+  font-size: 1.1rem;
+  min-width: 320px;
+  min-height: 180px;
+  border: 2px solid #3498db;
+  /* Center text, optional: */
+  text-align: center;
 }

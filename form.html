@@ -36,7 +36,12 @@
         <div class="section-inner">
           <h2 class="section-title">Pizza</h2>
 
-          <article class="product-card">
+          <article
+            class="product-card"
+            data-category="pizza"
+            data-name="Pizza Nr. 1"
+            data-price="100"
+          >
             <div class="card-details">
               <h3 class="product-name">Pizza Nr. 1</h3>
               <p class="product-description">
@@ -46,20 +51,24 @@
 
             <div class="card-price-action">
               <span class="product-price">DKK 100</span>
-              <button class="add-to-cart-btn">+</button>
+              <button class="add-to-cart-btn" type="button">+</button>
             </div>
           </article>
-          <article class="product-card">
+
+          <article
+            class="product-card"
+            data-category="pizza"
+            data-name="Pizza Nr. 2"
+            data-price="110"
+          >
             <div class="card-details">
               <h3 class="product-name">Pizza Nr. 2</h3>
-              <p class="product-description">
-                Tomat, ost, skinke og champignon.
-              </p>
+              <p class="product-description">Tomat, ost, pepperoni og løg.</p>
             </div>
 
             <div class="card-price-action">
-              <span class="product-price">DKK 100</span>
-              <button class="add-to-cart-btn">+</button>
+              <span class="product-price">DKK 110</span>
+              <button class="add-to-cart-btn" type="button">+</button>
             </div>
           </article>
         </div>
@@ -84,12 +93,20 @@
     </div>
 
     <div id="orderbutton">
-      <button class="order-total-btn">
-        🛒 Ordre <span class="order-price">DKK 0</span>
+      <button class="order-total-btn" popovertarget="order-list" type="button">
+        🛒 Ordre
+        <span class="order-price">DKK 0</span>
       </button>
+    </div>
+
+    <!-- POPOVER / SUMMARY -->
+    <div popover id="order-list">
+      <h2 class="placeholder">Opsummering</h2>
+      <ul id="order_items"></ul>
     </div>
   </body>
   <script src="js/login.js"></script>
   <!--  <script src="js/burger.js"></script> -->
   <script src="js/form.js"></script>
+  <script src="js/orderlist.js"></script>
 </html>

@@ -59,6 +59,8 @@ select {
   text-decoration: none;
 }
 
+/* IKKE RØR DEN UNDER HER!!! */
+
 .mobile-menu ul {
   display: flex;
   flex-direction: column;
@@ -145,10 +147,24 @@ footer {
     display: flex;
     gap: 32px;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .site-header .mobile-menu li {
+    display: flex; /* <- fjerner baseline-forskelle mellem li’er */
+    margin: 0;
+    padding: 0;
   }
 
   .site-header .mobile-menu a {
+    display: inline-flex; /* <- gør alle links “lige høje” */
+    align-items: center;
+    line-height: 1; /* <- klassisk fix mod “ét link hopper” */
+    padding: 10px 0;
     text-decoration: none;
+    white-space: nowrap;
   }
 
   .mobile-menu ul {

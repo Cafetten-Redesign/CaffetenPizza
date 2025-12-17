@@ -85,6 +85,10 @@
   }
 
   .not-desktop {
+    display: none !important;
+  }
+
+  .home .subpage-only {
     display: none;
   }
 

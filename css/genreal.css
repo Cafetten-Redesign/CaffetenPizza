@@ -4,12 +4,33 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: "Poppins", sans-serif;
+}
+
 .site-header {
   display: flex;
   align-items: center;
   justify-content: space-between; /* logo ↔ burger */
   padding: 10px 12px;
-  margin-top: 35px;
+  margin-top: 20px;
+  position: relative;
 }
 
 .site-header img {
@@ -25,4 +46,16 @@
 .burger span {
   height: 4px;
   border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .site-header .mobile-menu ul {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .site-header .mobile-menu a {
+    text-decoration: none;
+  }
 }

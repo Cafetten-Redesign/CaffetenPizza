@@ -84,7 +84,7 @@
     height: 55px;
   }
 
-  .mobile-only {
+  .not-desktop {
     display: none;
   }
 

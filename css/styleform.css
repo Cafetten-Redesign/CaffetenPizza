@@ -30,12 +30,25 @@ nav::-webkit-scrollbar {
   background-color: #c9c9c9; /* Giv baggrunden en farve, så indholdet under ikke ses */
 }
 
-nav a {
-  /* Styling af de enkelte links */
-  flex-shrink: 0; /* Vigtigt: sikrer, at linkene ikke bliver mindre, når der er mange */
+.menuitems a {
+  font-family: "Raleway", "Poppins", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #222;
+  flex-shrink: 0;
   padding: 0 15px;
   text-decoration: none;
-  /* ... andet link-styling ... */
+  display: inline-block;
+  line-height: 1.5;
+  transition: color 0.2s, box-shadow 0.2s;
+}
+
+.menuitems a:hover {
+  color: #fff;
+  background: #3498db;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.15);
+  text-decoration: none;
 }
 
 body {
@@ -328,9 +341,11 @@ section:nth-child(17) {
 }
 
 @media (min-width: 901px) {
-  /* Desktop styles (kan tilpasses yderligere) */
-
-  nav {
+  .menuitems {
+    overflow-x: visible; /* remove scroll */
+    white-space: normal; /* allow wrapping */
     justify-content: center;
+    flex-wrap: wrap; /* items move to next row if needed */
+    gap: 24px;
   }
 }

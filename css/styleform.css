@@ -45,7 +45,7 @@ nav::-webkit-scrollbar {
 
 .menuitems a:hover {
   color: #fff;
-  background: #3498db;
+  background: #4b6b41;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(52, 152, 219, 0.15);
   text-decoration: none;
@@ -73,81 +73,81 @@ section {
 }
 
 section:nth-child(2) {
-  background: #3498db;
+  background: #4b6b41;
   color: white;
 }
 
 section:nth-child(3) {
-  background: #ecf0f1;
+  background: #cacaca;
   color: #2c3e50;
 }
 
 section:nth-child(4) {
-  background: #e74c3c;
+  background: #4b6b41;
   color: white;
 }
 
 section:nth-child(5) {
-  background: #42375c;
+  background: #cacaca;
   color: white;
 }
 
 section:nth-child(6) {
-  background: #ac5588;
+  background: #4b6b41;
   color: white;
 }
 
 section:nth-child(7) {
-  background: #031d0d;
+  background: #cacaca;
   color: white;
 }
 
 section:nth-child(8) {
-  background: #2eb7cc;
+  background: #4b6b41;
   color: white;
 }
 
 section:nth-child(9) {
-  background: #cc2e2e;
+  background: #cacaca;
   color: white;
 }
 
 section:nth-child(10) {
-  background: #c4cc2e;
+  background: #4b6b41;
   color: white;
 }
 
 section:nth-child(11) {
-  background: #462ecc;
+  background: #cacaca;
   color: white;
 }
 
 section:nth-child(12) {
-  background: #cc2ebf;
+  background: #4b6b41;
   color: white;
 }
 
 section:nth-child(13) {
-  background: #ccbc2e;
+  background: #cacaca;
   color: white;
 }
 
 section:nth-child(14) {
-  background: #cc2ebc;
+  background: #4b6b41;
   color: white;
 }
 
 section:nth-child(15) {
-  background: #36cc2e;
+  background: #cacaca;
   color: white;
 }
 
 section:nth-child(16) {
-  background: #cc2e2e;
+  background: #4b6b41;
   color: white;
 }
 section:nth-child(17) {
-  background: #cc682e;
+  background: #cacaca;
   color: white;
 }
 

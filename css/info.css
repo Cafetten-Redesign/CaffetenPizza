@@ -116,7 +116,7 @@ section {
   height: 281px;
   object-fit: cover;
   border-radius: 100%;
-  border: 0.5px solid black;
+  border: 0.5px solid white;
   margin: 2rem auto 1rem;
 }
 
@@ -144,7 +144,7 @@ section {
   height: 281px;
   object-fit: cover;
   border-radius: 100%;
-  border: 0.5px solid black;
+  border: 0.5px solid white;
   margin: 2rem auto 1rem;
 }
 
@@ -244,7 +244,7 @@ footer {
   }
 
   .omos-indhold img {
-    width: 1360px;
+    width: 1380px;
     height: 600px;
     margin-top: 10px;
   }
@@ -252,6 +252,7 @@ footer {
   h2 {
     text-align: center;
     margin-top: 80px;
+    font-size: 48px;
   }
 
   .historienbag-indhold p {
@@ -272,4 +273,83 @@ footer {
     height: 600px;
     margin-top: 60px;
   }
+
+  .mandenbag {
+    margin-top: 6rem;
+  }
+
+  .mandenbag h3 {
+    font-size: 48px;
+    margin-right: -22.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .mandenbag-indhold {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    column-gap: 4rem;
+    align-items: start;
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+
+  .mandenbag-indhold img {
+    width: 500px;
+    height: 450px;
+    grid-column: 1;
+    margin-left: -10rem;
+    margin-top: 5rem;
+    grid-row: 1 / span 3;
+  }
+
+  .mandenbag-indhold p {
+    font-size: 19px;
+    margin-bottom: 1rem;
+    margin-right: -8rem;
+    grid-column: 2;
+    text-align: justify;
+  }
+
+  .passionenforpizza {
+    margin-top: 6rem;
+  }
+
+  .passionenforpizza h4 {
+    font-size: 48px;
+    margin-right: 50rem;
+    margin-bottom: 2rem;
+  }
+
+  .passionenforpizza-indhold {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    column-gap: 4rem;
+    align-items: start;
+    max-width: 1050px;
+    margin: 0 auto;
+  }
+
+  .passionenforpizza-indhold img {
+    width: 500px;
+    height: 450px;
+    grid-column: 2;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    grid-row: 1 / span 3;
+  }
+
+  .passionenforpizza-indhold p {
+    font-size: 19px;
+    margin-bottom: 1rem;
+    grid-column: 1;
+    text-align: justify;
+    justify-self: start;
+    margin-left: -8.5rem;
+  }
+
+  h5 {
+    margin-top: 8rem;
+  }
+
+  /* --- START FOOTER --- */
 }

@@ -1,4 +1,12 @@
-.article1{
+
+main {background-color: #E8DCC3;}
+
+.articles img {
+  width: 25%;
+  height: auto;
+}
+
+   .article1{
 border: 1px solid black;
 padding: 10px;
 }
@@ -9,7 +17,27 @@ padding: 10px;
 .article3{
 border: 1px solid black;
 padding: 10px;
-margin-bottom: 100px;
+}
+
+.articles{
+    display:flex;
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+
+
+    .article1{
+border: 1px solid black;
+padding: 10px;
+}
+.article2{
+border: 1px solid black;
+padding: 10px;
+}
+.article3{
+border: 1px solid black;
+padding: 10px;
 }
 
 main {background-color: #E8DCC3;}
@@ -20,57 +48,62 @@ main {background-color: #E8DCC3;}
     margin-bottom: 10px;
 }
 .undertekst{
-    margin-top: 10px;
-    margin-right: 500px;
-    margin-left: 500px;
-    margin-bottom: 30px;
+    padding: 25px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 
-@media (min-width: 768px) {}
-.article1{
-border: 1px solid black;
-padding: 25px;
-padding-bottom: 50px;
 
-}
-.article2{
-border: 1px solid black;
-padding: 10px;
-
-}
-.article3{
-border: 1px solid black;
-padding: 10px;
-}
 
 .review-btn{
     border: 1px solid black;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 10px;
     margin-right: 560px;
     margin-left: 560px;
     margin-top: 50px;
     display:flex;
     justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  min-width: 130px;
 }
 
 .linje1{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    padding: 50px;
 }
 .articles{
     display:flex;
     background-color: white;
 }
 
-img {
+.articles img {
   width: 25%;
   height: auto;
 }
 
-.review-btn{
-  
+.google{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: white;
+    text-align: center;
+    flex-shrink: 0;
+    width: fit-content;
+}
+
+.google img{
+    width: 10%;
+    height: auto;
+}
 }
 
